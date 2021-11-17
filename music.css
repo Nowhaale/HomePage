@@ -1,0 +1,197 @@
+.music_page {
+  background-image: url("/WeekndBackground.jpg");
+  background-position: right;
+  background-size:contain;
+  background-repeat:repeat;
+  background-attachment: fixed;
+}
+
+.navbar {
+  font-family: Lato;
+  font-size:16px;
+}
+ 
+.navbar li a, .navbar{
+  color:white !important;
+}
+
+.navbar-brand {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+  color: white !important;
+  font-size: 25px !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color:black !important;
+    background-color:white !important;
+}
+
+.logo {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.logo ul {
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo ul li a {
+    color:white;
+    font-family: Impact;
+    font-size: 100px;
+    position:static;
+    letter-spacing: 5px;
+    text-decoration:none;
+    width: 100%;
+  }
+
+
+#moth_song {
+  width: 360px;
+  height: auto;
+  margin-left: 300px;
+  float: left;
+}
+.moth_single h1, .moth_single h3, .moth_single p {
+  color: white;
+  width: 300px;
+  clear: right;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.moth_single h1 {
+  font-family: Impact;
+  text-decoration: underline;
+  letter-spacing: 1px;
+}
+
+.moth_single h3 {
+  font-weight: bold;
+  font-family: Lato;
+}
+.moth_single p {
+  font-size: 16px;
+  font-family: Lato;
+}
+
+.albums_singles {
+  float: left;
+  clear: right;
+  margin-left: 90px;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.albums_singles h3 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+  width: fit-content;
+  padding: 2px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: lighter;
+}
+
+.albums_singles img {
+  padding: 1px;
+}
+
+.albums_singles img:hover {
+  background-color: white;
+  color: black;
+}
+
+.albums_singles a:hover {
+  text-decoration: none;
+}
+
+.albums_singles h3:hover {
+  background-color: white;
+  color: black;
+}
+
+#spotify_link{
+float: left;
+margin-left: 80px;
+}
+#apple_link {
+float: right;
+margin-right: 80px;
+}
+
+.apple, .spotify, .youtube, .twitter, .instagram, .facebook {
+  float:right;
+  clear: left;
+  margin-top: 50px;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+@media(max-width: 768px) {
+    .logo ul li {
+      margin-left: auto;
+      margin-right: auto;
+    }
+      .music_page ul li{
+        float:none;
+        clear: both;
+        text-align: center;
+      }
+    .moth_single{
+        float:none;
+        clear: both;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      #moth_song {
+        width: 40%;
+        height: auto;
+        float: none;
+        clear: both;
+        margin-left: auto;
+        margin-right: auto; 
+      }
+    .albums_singles, .albums_singles img {
+      width: 70%;
+      height: auto;
+      float: none;
+      clear: both;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .albums_singles h3 {
+      text-align: center;
+      letter-spacing: 2px;
+      font-weight: lighter;
+    }
+    #spotify_link{
+      float: left;
+      clear: left;
+      width: 60px;
+      margin-left: 50px;
+      }
+      #apple_link {
+      float: right;
+      clear: right;
+      width: 60px;
+      margin-left: 50px;
+      }
+    .apple, .spotify, .youtube, .twitter, .instagram, .facebook {
+      float: right;
+      clear: left;
+      width: 75px;
+      margin-right: 30px;
+      margin-top: 30px;
+    }
+}
